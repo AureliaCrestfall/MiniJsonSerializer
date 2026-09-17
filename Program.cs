@@ -1,4 +1,7 @@
-﻿namespace MiniJsonSerializer
+﻿using System.Reflection;
+using System.Reflection.Metadata;
+
+namespace MiniJsonSerializer
 {
     internal class Program
     {
@@ -10,6 +13,7 @@
                 Age = 27,
                 Student = true
             };
+            
         }
     }
 }
